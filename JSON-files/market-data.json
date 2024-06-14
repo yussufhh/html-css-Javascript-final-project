@@ -1,0 +1,40 @@
+{
+    "maizes":[
+        {    
+            "crop": "Yellow maize",
+            "prices": " price per sack: 2000k",
+            "description":"Less commonly grown, often used for animal feed.Common varieties: PHB30G19, DK8031",
+            "variety": "Merut Yellow",
+            "image": "https://images.pexels.com/photos/10111854/pexels-photo-10111854.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "id": 1
+        },
+        {    
+            "crop": "white maize",
+            "prices": " price per sack: 2500k",
+            "description":"Predominantly grown  in Kenya.Common varieties: H614, H6213, KH500-33A",
+            "image": "https://media.istockphoto.com/id/1369570818/photo/white-tapioca-starch-in-wooden-bowl-and-spoon-isolated-on-white-background.jpg?b=1&s=612x612&w=0&k=20&c=iZ9L9hpkWpHTN8LceWVsTrQP2L_aBYtDUF0aOiXN6xg=",
+            "id": 2
+        },
+        {    
+            "crop": "Flint Maize",
+            "prices": " price per sack: 2300k",
+            "description":"Hard, vitreous kernels.Good resistance to pests and diseases.",
+            "image": "https://media.istockphoto.com/id/1183457682/photo/colorful-flint-corn.jpg?s=612x612&w=is&k=20&c=0fp8NbgnYi5cu5rO-epdO-fSo8EhRomFfFbfjVHV4RU=",
+            "id": 3
+        },
+        {    
+            "crop": "Dent Maize",
+            "prices": " price per sack: 2100k",
+            "description":"Soft, starchier kernels.Preferred for animal feed and industrial use.",
+            "image": "https://images.pexels.com/photos/5463228/pexels-photo-5463228.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "id": 4
+        }
+        
+
+        
+        
+        
+    ]}
+    
+
+ 
