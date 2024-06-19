@@ -28,27 +28,6 @@
       "description": "Soft, starchier kernels.Preferred for animal feed and industrial use.",
       "image": "https://images.pexels.com/photos/5463228/pexels-photo-5463228.jpeg?auto=compress&cs=tinysrgb&w=600",
       "id": "4"
-    },
-    {
-      "id": "e069",
-      "crop": "millets",
-      "prices": "2400",
-      "description": "cost is high",
-      "source": "https://www.pexels.com/photo/millet-with-vegetables-14024719/"
-    },
-    {
-      "id": "c4ed",
-      "crop": "millet",
-      "prices": "2409",
-      "description": "cost is high now",
-      "source": "https://www.pexels.com/photo/millet-with-vegetables-14024719/"
-    },
-    {
-      "id": "4878",
-      "crop": "maize",
-      "prices": "2409",
-      "description": "cost is high always",
-      "image": "https://www.pexels.com/photo/millet-with-vegetables-14024719/"
     }
   ],
   "rices": [
@@ -80,13 +59,6 @@
       "description": "Long, slender, non-sticky grains.",
       "image": "https://images.pexels.com/photos/4110255/pexels-photo-4110255.jpeg?auto=compress&cs=tinysrgb&w=600",
       "id": "4"
-    },
-    {
-      "id": "164d",
-      "crop": "rice",
-      "prices": "2400",
-      "description": "cost is high now",
-      "image": "https://www.pexels.com/photo/millet-with-vegetables-14024719/"
     },
     {
       "id": "97d4",
@@ -124,13 +96,6 @@
       "description": "Used for both food and feed, contains carotenoids.",
       "image": "https://media.istockphoto.com/id/1171334832/photo/grains-of-millet-in-a-wooden-spoon-ears-of-millet-close-up.jpg?b=1&s=612x612&w=0&k=20&c=MMYR_-tmrPZWgRXmitr5P3cEEoEAMTi3xqSqfKT18LQ=",
       "id": "4"
-    },
-    {
-      "id": "70d7",
-      "crop": "sorghum",
-      "prices": "2409",
-      "description": "cost is high imagin",
-      "image": "https://www.pexels.com/photo/millet-with-vegetables-14024719/"
     }
   ],
   "millets": [
@@ -163,64 +128,79 @@
       "id": "4"
     }
   ],
-  "weeklyForecast": [
-    {
-      "day": "Monday",
-      "condition": "Sunny",
-      "highLowTemp": "28°C / 18°C",
-      "precipitation": "0%",
-      "id": "b050"
-    },
-    {
-      "day": "Tuesday",
-      "condition": "Partly Cloudy",
-      "highLowTemp": "27°C / 19°C",
-      "precipitation": "10%",
-      "id": "d973"
-    },
-    {
-      "day": "Wednesday",
-      "condition": "Cloudy",
-      "highLowTemp": "25°C / 18°C",
-      "precipitation": "20%",
-      "id": "023b"
-    },
-    {
-      "day": "Thursday",
-      "condition": "Rainy",
-      "highLowTemp": "22°C / 16°C",
-      "precipitation": "80%",
-      "id": "0501"
-    },
-    {
-      "day": "Friday",
-      "condition": "Thunderstorms",
-      "highLowTemp": "24°C / 17°C",
-      "precipitation": "90%",
-      "id": "dbcd"
-    },
-    {
-      "day": "Saturday",
-      "condition": "Sunny",
-      "highLowTemp": "27°C / 18°C",
-      "precipitation": "5%",
-      "id": "1476"
-    },
-    {
-      "day": "Sunday",
-      "condition": "Sunny",
-      "highLowTemp": "29°C / 19°C",
-      "precipitation": "0%",
-      "id": "514e"
-    }
-  ],
   "dataStorage": [
     {
-      "id": "f652",
-      "Fname": "yussufhussein9347@gmail.com",
+      "id": "491b"
+    },
+    {
+      "id": "dcbe",
+      "Fname": "moon lover",
       "Email": "yussufhussein9347@gmail.com",
       "passsword": "123456788",
       "phone": "0793477632"
+    },
+    {
+      "id": "6537",
+      "Fname": "yussufhussein9347@gmail.com",
+      "Email": "",
+      "passsword": "66666",
+      "phone": ""
+    },
+    {
+      "id": "b690",
+      "Fname": "yussufhussein9347@gmail.com",
+      "Email": "",
+      "passsword": "66666",
+      "phone": ""
+    }
+  ],
+  "ContactData": [
+    {
+      "id": "2098"
+    },
+    {
+      "id": "a87a",
+      "fullName": "yyyui",
+      "phone": "0793477632",
+      "email": "hiboherson@gmail.com",
+      "address": "56",
+      "city": "garissa town",
+      "state": "g university",
+      "zip": "090",
+      "message": "wana buy"
+    },
+    {
+      "id": "ae1e",
+      "fullName": "yyyui",
+      "phone": "0793477632",
+      "email": "hiboherson@gmail.com",
+      "address": "56",
+      "city": "garissa town",
+      "state": "g university",
+      "zip": "090",
+      "message": "yuuuskaa"
+    },
+    {
+      "id": "a8c4",
+      "fullName": "yyyui",
+      "phone": "0793477632",
+      "email": "hiboherson@gmail.com",
+      "address": "56",
+      "city": "garissa town",
+      "state": "g university",
+      "zip": "090",
+      "message": "now"
+    },
+    {
+      "id": "c49c",
+      "fullName": "yyyui",
+      "phone": "0793477632",
+      "email": "hiboherson@gmail.com",
+      "address": "56",
+      "city": "garissa town",
+      "state": "g university",
+      "zip": "090",
+      "message": "yyyy"
     }
   ]
 }

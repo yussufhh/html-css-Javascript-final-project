@@ -10,7 +10,7 @@ function marketSorghum(sorghum){
     <p class="text-light">${sorghum.crop}</p>
     <p class="text-dark">${sorghum.prices}</p>
      <p class="text-infor">${sorghum.description}</p>
-    <a href="https://www.pexels.com/search/sorghum/" class="btn btn-primary text-dark">Explore more</a>
+    <a href="contact.html" class="btn btn-primary text-dark">Buy now</a>
   </div>
   </div>`
   row.appendChild(div)
@@ -35,7 +35,7 @@ function marketSorghum(sorghum){
     <p class="text-light">${millet.crop}</p>
     <p class="text-dark">${millet.prices}</p>
      <p class="text-infor">${millet.description}</p>
-    <a href="https://www.pexels.com/search/MILLETS/" class="btn btn-primary text-dark">Explore more</a>
+    <a href="contact.html" class="btn btn-primary text-dark">Buy now</a>
   </div>
   </div>`
   row.appendChild(div)

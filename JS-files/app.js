@@ -11,7 +11,7 @@ function marketData(maize){
     <p class="text-light">${maize.crop}</p>
     <p class="text-dark">${maize.prices}</p>
      <p class="text-infor">${maize.description}</p>
-    <a href="https://www.pexels.com/search/maize/" class="btn btn-primary text-dark">Explore more</a>
+    <a href="contact.html" class="btn btn-primary text-dark">Buy now</a>
   </div>
 </div>`
 row.appendChild(div)
@@ -36,7 +36,7 @@ function marketRice(rice){
   <p class="text-light">${rice.crop}</p>
   <p class="text-dark">${rice.prices}</p>
    <p class="text-infor">${rice.description}</p>
-  <a href="https://www.pexels.com/search/rices/" class="btn btn-primary text-dark">Explore more</a>
+  <a href="contact.html" class="btn btn-primary text-dark">Buy now</a>
 </div>
 </div>`
 row.appendChild(div)
