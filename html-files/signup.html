@@ -27,15 +27,22 @@
         </div>
           <div class="main-form">
             <center>
+                
     
-                <form action="">
+                <form action="" id="login">
+                    
             
-                    <div class="container-form" style="background-color: #ff1d58;">
+                    <div class="container-form bg-success">
+                        <div class="bg-secondary text-light" id="successAllert" role="alert" style="width: 100%;"></div>
+                      <div class="text-danger bg-primary" id="dangerAllert" role="alert" style="width: 100%;"></div>
                         <p>Sign up</p>
-                        <input type="text" name="name" id="name" placeholder="Name" required>
-                        <input type="email" name="email" id="email" placeholder="Email" required>
-                        <input type="password" name="password" id="password" placeholder="Password" required>
-                        <input type="password" name="password" id="password" placeholder="Confirm password" required> 
+                        <input type="text" name="name" id="username" placeholder="username" class="form-control">
+                        <input type="text" name="email" id="email" placeholder="Email" class="form-control">
+                        <input type="password"  name="password" onkeyup="checkPasswordLength()" id="password" placeholder="Password" class="form-control">
+                        <span id="passwordHelper"></span>
+                        <input type="password" name="password" onkeyup="checkConfirmPassword()" id="confirmPassword" placeholder="Confirmpassword" class="form-control"> 
+                        <span id="confirmPasswordHelper"></span>
+                        <input type="text" name="phone" id="phone" placeholder="phone" class="form-control">
                         <button
                         type="submit">Sign up</button>
                     </div>
@@ -92,7 +99,47 @@
             </div>
         </div>
     </footer>
-</body>
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="/JS-files/form.js" defer></script>
+<script>
+    const registeredForm = document.getElementById('slogin')
+function registeredUsers(event){ 
+    event.preventDefault()
+let username1 = registeredForm.querySelector('#username').value
+let email1= registeredForm.querySelector('#email').value
+let passsword1 = registeredForm.querySelector('#password').value
+let phone1 = registeredForm.querySelector('#phone').value
+
+const dataObject = {
+    Fname: username1,
+    Email: email1,
+    passsword: passsword1,
+    phone: phone1
+
+}
+fetch('http://localhost:3000/dataStorage',{
+    method: 'POST',
+    headers:{
+        'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(dataObject)
+})
+.then(res => res.json())
+.then(data =>{
+    successAllert.textContent = 'Thank you suceessfully registered...';
+    successAllert.classList.add('d-block')
+ form.reset();
+})
+
+}
+registeredForm.addEventListener("submit", registeredUsers)
+
+</script>
+    </body>
 </html>
 
     

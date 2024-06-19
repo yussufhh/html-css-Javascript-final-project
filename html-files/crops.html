@@ -7,9 +7,10 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="/CSS/home.css">
+    <link rel="stylesheet" href="/CSS/app.css">
 </head>
 <body>
-    <div class="navibar">
+    <div class="navibar sm-12 md-12 lg-12"> 
         <h1 class="logo">FarmNavigator</h1>
         <ul>
             <li><a href="index.html"><span>Home</span></a></li>
@@ -19,15 +20,59 @@
             <li><a href="singup.html">Sign up</a></li>
         </ul>
     </div>
+    
    <div class="main">
+    
     <h2 class="head">Diverse Agricultural Practices in Northern Kenya</h2>
     <p>In Northern Kenya, agriculture is characterized by the cultivation of drought-resistant crops such as sorghum, millet, and maize, which thrive in the semi-arid climate and are essential for food security in the region. Farmers in this area also grow legumes like cowpeas and pigeon peas, which not only provide nutritional benefits but also enhance soil fertility through nitrogen fixation.</p>
     
     <h2 class="head"> Innovative Farming Techniques in Northern Kenya</h2>
     <p>To adapt to the harsh climatic conditions, farmers in Northern Kenya employ innovative techniques such as agroforestry, integrating trees like acacia with crops to improve soil quality and reduce erosion, and the use of zai pits, which are small, hand-dug pits filled with organic matter to capture and retain water, thus enhancing crop yields even in periods of low rainfall.</p>
     <h3 style="color: white;">The following are the different types of crops in norther kenya with related information</h3>
+    <div class="col-8 mt-5">
+        <form action="">
+          <div class="row">
+            <div class="col">
+              <input type="text" class="form-control"  placeholder="crop" id="crop">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control"  placeholder="price" id="prices">
+              </div>
+            <div class="col">
+              <input type="text" class="form-control " placeholder="description" id="description">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Url" id="image">
+            
+            </div>
+            <div class="col">
+              <button type="submit" class="btn btn-dark">Add Crops</button>
+              
+            </div>
+            
+          </div>
+          
+         </form>
+  
+      </div>
+    <h1 class="crops">MAIZES</h1>
     <div class="row" id="card">
 
+    </div>
+    <h1 class="crops">RICES</h1>
+    <div class="row" id="rice">
+
+    </div>
+    <h1 class="crops">SORGHUMS</h1>
+    <div class="row" id="sorghum">
+
+    </div>
+    <h1 class="crops">MILLETS</h1>
+    <div class="row" id="millet">
+
+    </div>
+    <div class="container-fluid p-5 row" id="card">
+      
     </div>
     </div>
     <footer class="footer">
@@ -84,6 +129,8 @@
     </footer>
 
     <script src="/JS-files/app.js"></script>
+    <script src="/JS-files/script.js"></script>
+    <script src="/JS-files/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>

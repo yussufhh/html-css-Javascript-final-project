@@ -3,34 +3,6 @@
     "currentWeather": {
         "temperature": "25°C",
         "condition": "Sunny"
-    },
-    "weeklyForecast": [
-        { "day": "Monday", 
-        "condition": "Sunny", 
-        "highLowTemp": "28°C / 18°C", 
-        "precipitation": "0%" },
-        { "day": "Tuesday", 
-        "condition": "Partly Cloudy", 
-        "highLowTemp": "27°C / 19°C",
-         "precipitation": "10%" },
-        { "day": "Wednesday", 
-        "condition": "Cloudy", 
-        "highLowTemp": "25°C / 18°C",
-         "precipitation": "20%" },
-        { "day": "Thursday", 
-        "condition": "Rainy", 
-        "highLowTemp": "22°C / 16°C", 
-        "precipitation": "80%" },
-        { "day": "Friday", "condition": 
-        "Thunderstorms", "highLowTemp":
-         "24°C / 17°C", "precipitation": "90%" },
-        { "day": "Saturday", 
-        "condition": "Sunny", 
-        "highLowTemp": "27°C / 18°C", 
-        "precipitation": "5%" },
-        { "day": "Sunday", 
-        "condition": "Sunny",
-         "highLowTemp": "29°C / 19°C", 
-         "precipitation": "0%" }
-    ]
+    }
+    
 }

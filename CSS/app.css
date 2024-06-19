@@ -1,0 +1,18 @@
+.crops{
+    color: #fff;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: underline;
+    font-weight:bold;
+    
+}
+.Button{
+    text-align: center;
+    
+}
+.Button a:hover{
+    background-color: #f12;
+    color: #fff;
+    padding-left: 20px;
+}

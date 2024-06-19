@@ -1,0 +1,226 @@
+{
+  "maizes": [
+    {
+      "crop": "Yellow maize",
+      "prices": " price per sack: 2000k",
+      "description": "Less commonly grown, often used for animal feed.Common varieties: PHB30G19, DK8031",
+      "variety": "Merut Yellow",
+      "image": "https://images.pexels.com/photos/10111854/pexels-photo-10111854.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "id": "1"
+    },
+    {
+      "crop": "white maize",
+      "prices": " price per sack: 2500k",
+      "description": "Predominantly grown  in Kenya.Common varieties: H614, H6213, KH500-33A",
+      "image": "https://media.istockphoto.com/id/1369570818/photo/white-tapioca-starch-in-wooden-bowl-and-spoon-isolated-on-white-background.jpg?b=1&s=612x612&w=0&k=20&c=iZ9L9hpkWpHTN8LceWVsTrQP2L_aBYtDUF0aOiXN6xg=",
+      "id": "2"
+    },
+    {
+      "crop": "Flint Maize",
+      "prices": " price per sack: 2300k",
+      "description": "Hard, vitreous kernels.Good resistance to pests and diseases.",
+      "image": "https://media.istockphoto.com/id/1183457682/photo/colorful-flint-corn.jpg?s=612x612&w=is&k=20&c=0fp8NbgnYi5cu5rO-epdO-fSo8EhRomFfFbfjVHV4RU=",
+      "id": "3"
+    },
+    {
+      "crop": "Dent Maize",
+      "prices": " price per sack: 2100k",
+      "description": "Soft, starchier kernels.Preferred for animal feed and industrial use.",
+      "image": "https://images.pexels.com/photos/5463228/pexels-photo-5463228.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "id": "4"
+    },
+    {
+      "id": "e069",
+      "crop": "millets",
+      "prices": "2400",
+      "description": "cost is high",
+      "source": "https://www.pexels.com/photo/millet-with-vegetables-14024719/"
+    },
+    {
+      "id": "c4ed",
+      "crop": "millet",
+      "prices": "2409",
+      "description": "cost is high now",
+      "source": "https://www.pexels.com/photo/millet-with-vegetables-14024719/"
+    },
+    {
+      "id": "4878",
+      "crop": "maize",
+      "prices": "2409",
+      "description": "cost is high always",
+      "image": "https://www.pexels.com/photo/millet-with-vegetables-14024719/"
+    }
+  ],
+  "rices": [
+    {
+      "crop": "Black rice",
+      "prices": " price per sack: 3000k",
+      "description": "Nutty flavor, high in antioxidants, often used in specialty dishes.",
+      "variety": "Japonica Black Rice",
+      "image": "https://images.pexels.com/photos/8108052/pexels-photo-8108052.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "id": "1"
+    },
+    {
+      "crop": "Pishori Rice",
+      "prices": " price per sack: 2700k",
+      "description": "Aromatic, long-grain, grown in Mwea.",
+      "image": "https://images.pexels.com/photos/164504/pexels-photo-164504.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "id": "2"
+    },
+    {
+      "crop": "Basmati Rice",
+      "prices": " price per sack: 2600k",
+      "description": "Hard, vitreous kernels.",
+      "image": "https://media.istockphoto.com/id/491090528/photo/cooked-rice.jpg?b=1&s=612x612&w=0&k=20&c=Io6k2L1tEi2Qoqbig4iqp7yfgGhiMaoLYakuIgWZOTc=",
+      "id": "3"
+    },
+    {
+      "crop": "Sindano Rice",
+      "prices": " price per sack: 2400k",
+      "description": "Long, slender, non-sticky grains.",
+      "image": "https://images.pexels.com/photos/4110255/pexels-photo-4110255.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "id": "4"
+    },
+    {
+      "id": "164d",
+      "crop": "rice",
+      "prices": "2400",
+      "description": "cost is high now",
+      "image": "https://www.pexels.com/photo/millet-with-vegetables-14024719/"
+    },
+    {
+      "id": "97d4",
+      "crop": "rice",
+      "prices": "2400",
+      "description": "cost is high now",
+      "image": "https://www.pexels.com/photo/millet-with-vegetables-14024719/"
+    }
+  ],
+  "sorghums": [
+    {
+      "crop": "white sorghum",
+      "prices": " price per sack: 3400ksh",
+      "description": "Used for food products like flour and bread.",
+      "image": "https://media.istockphoto.com/id/1421809111/photo/indian-white-sorghum-grain-selective-focus.jpg?b=1&s=612x612&w=0&k=20&c=XtCbQsodhricXz17mBITXgT_dO-CQXZ3MSJ3jc7Y57M=",
+      "id": "1"
+    },
+    {
+      "crop": "Red Sorghum",
+      "prices": " price per sack: 2800k",
+      "description": "Aromatic, long-grain, grown in Mwea.",
+      "image": "https://media.istockphoto.com/id/1182006217/photo/grains-and-sprigs-of-red-millet-top-view.jpg?b=1&s=612x612&w=0&k=20&c=IP8vkD_OOtOEv0Bo8zwglNJAUa_mVupPd0ESNA-PEbs=",
+      "id": "2"
+    },
+    {
+      "crop": "Brown Sorghum:",
+      "prices": " price per sack: 2600ksh",
+      "description": " High in tannins, often used for animal feed.",
+      "image": "https://images.pexels.com/photos/20708710/pexels-photo-20708710/free-photo-of-brown-coffee-beans.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "id": "3"
+    },
+    {
+      "crop": "Yellow Sorghum",
+      "prices": " price per sack: 2400kksh",
+      "description": "Used for both food and feed, contains carotenoids.",
+      "image": "https://media.istockphoto.com/id/1171334832/photo/grains-of-millet-in-a-wooden-spoon-ears-of-millet-close-up.jpg?b=1&s=612x612&w=0&k=20&c=MMYR_-tmrPZWgRXmitr5P3cEEoEAMTi3xqSqfKT18LQ=",
+      "id": "4"
+    },
+    {
+      "id": "70d7",
+      "crop": "sorghum",
+      "prices": "2409",
+      "description": "cost is high imagin",
+      "image": "https://www.pexels.com/photo/millet-with-vegetables-14024719/"
+    }
+  ],
+  "millets": [
+    {
+      "crop": "Pearl Millet",
+      "prices": " price per sack: 4000ksh",
+      "description": "Widely grown for food and fodder; drought-resistant.",
+      "image": "https://media.istockphoto.com/id/1400438871/photo/pear-millet-background.jpg?b=1&s=612x612&w=0&k=20&c=9xz8Zw0YOQ2u12G70e6_6xHfEIEmZT-KmQMs1tPOuRA=",
+      "id": "1"
+    },
+    {
+      "crop": "Finger Millet",
+      "prices": " price per sack: 2000k",
+      "description": "Known for its high calcium content and used in porridge.",
+      "image": "https://media.istockphoto.com/id/1317287403/photo/eleusine-coracana-grain-or-finger-millet-also-known-as-ragi-in-india-kodo-in-nepal.jpg?b=1&s=612x612&w=0&k=20&c=LzStqgNGIVr4QAtjZgkgduy-AEcSv-pV_tzC1lecxdQ=",
+      "id": "2"
+    },
+    {
+      "crop": "Proso Millet",
+      "prices": " price per sack: 2900ksh",
+      "description": " Short growing season, used for human consumption and birdseed.",
+      "image": "https://images.pexels.com/photos/7412066/pexels-photo-7412066.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "id": "3"
+    },
+    {
+      "crop": "Foxtail Millet",
+      "prices": " price per sack: 2400kksh",
+      "description": "Quick-growing, used as food and fodder.",
+      "image": "https://media.istockphoto.com/id/1096039106/photo/millet-groats-in-spoon-above-bowl-top-view.jpg?b=1&s=612x612&w=0&k=20&c=YM8BZLUkSMoVO4HiuOpEZbFTIRhznvvX3dCJdNB7ESA=",
+      "id": "4"
+    }
+  ],
+  "weeklyForecast": [
+    {
+      "day": "Monday",
+      "condition": "Sunny",
+      "highLowTemp": "28°C / 18°C",
+      "precipitation": "0%",
+      "id": "b050"
+    },
+    {
+      "day": "Tuesday",
+      "condition": "Partly Cloudy",
+      "highLowTemp": "27°C / 19°C",
+      "precipitation": "10%",
+      "id": "d973"
+    },
+    {
+      "day": "Wednesday",
+      "condition": "Cloudy",
+      "highLowTemp": "25°C / 18°C",
+      "precipitation": "20%",
+      "id": "023b"
+    },
+    {
+      "day": "Thursday",
+      "condition": "Rainy",
+      "highLowTemp": "22°C / 16°C",
+      "precipitation": "80%",
+      "id": "0501"
+    },
+    {
+      "day": "Friday",
+      "condition": "Thunderstorms",
+      "highLowTemp": "24°C / 17°C",
+      "precipitation": "90%",
+      "id": "dbcd"
+    },
+    {
+      "day": "Saturday",
+      "condition": "Sunny",
+      "highLowTemp": "27°C / 18°C",
+      "precipitation": "5%",
+      "id": "1476"
+    },
+    {
+      "day": "Sunday",
+      "condition": "Sunny",
+      "highLowTemp": "29°C / 19°C",
+      "precipitation": "0%",
+      "id": "514e"
+    }
+  ],
+  "dataStorage": [
+    {
+      "id": "f652",
+      "Fname": "yussufhussein9347@gmail.com",
+      "Email": "yussufhussein9347@gmail.com",
+      "passsword": "123456788",
+      "phone": "0793477632"
+    }
+  ]
+}

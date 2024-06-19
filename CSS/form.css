@@ -7,7 +7,8 @@
 }
 .main-form{
     width: 100%;
-    background: url(https://cdn.pixabay.com/photo/2018/04/28/22/03/tree-3358468_1280.jpg);
+    /* background: url(https://cdn.pixabay.com/photo/2018/04/28/22/03/tree-3358468_1280.jpg); */
+    background: url(https://images.pexels.com/photos/20569886/pexels-photo-20569886/free-photo-of-aerial-view-of-a-red-tree-and-a-hut-on-a-paddy-field-in-kishoreganj-bangladesh.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-size: cover;
   height: 100vh;
   background-position: center;

@@ -8,7 +8,8 @@ body{
 }
 .main{
     width: 100%;
-      background: url(https://cdn.pixabay.com/photo/2018/04/28/22/03/tree-3358468_1280.jpg);
+      /* background: url(https://cdn.pixabay.com/photo/2018/04/28/22/03/tree-3358468_1280.jpg); */
+      background: url(https://images.pexels.com/photos/20569886/pexels-photo-20569886/free-photo-of-aerial-view-of-a-red-tree-and-a-hut-on-a-paddy-field-in-kishoreganj-bangladesh.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-size: cover;
     height: 100%;
     background-position: center;
@@ -72,6 +73,7 @@ body{
     span{
         color: #ff7200;
         padding-left: 10px;
+        text-decoration: underline;
     }
     .head{
         color: #fff;
@@ -174,7 +176,7 @@ body{
     /* CSS style for <p> elements */
 p {
     font-family: 'Open Sans', Arial, sans-serif; /* Use a clean, sans-serif font */
-    font-size: 16px; /* Set a comfortable font size */
+    font-size: 18px; /* Set a comfortable font size */
     line-height: 1.6; /* Increase line height for better readability */
     color: #fff; /* Dark gray color for text, easier on the eyes than pure black */
     margin-bottom: 1em; /* Space between paragraphs */
@@ -185,7 +187,7 @@ p {
 /* Optional: Add styles for different screen sizes for better responsiveness */
 @media (max-width: 768px) {
     p {
-        font-size: 14px; /* Adjust font size for smaller screens */
+        font-size: 16px; /* Adjust font size for smaller screens */
         line-height: 1.5; /* Adjust line height for smaller screens */
     }
 }
