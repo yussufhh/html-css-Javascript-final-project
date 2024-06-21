@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 message: message.value
             };
 
-            fetch('http://localhost:3000/ContactData', {
+            fetch('http://localhost:3000/ContactDatas', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

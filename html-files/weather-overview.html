@@ -7,7 +7,6 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="/CSS/style.css">
-  >
 </head>
 <body>
     <div class="navibar">
@@ -22,18 +21,107 @@
     </div>
     
     <div class="main">
-        <div class="head">
-            <h1>Weather Forecasts</h1>
-            <h2>Stay updated with the latest weather conditions to plan your farming activities effectively.</h2>
-        </div>
-        
-        <div class="content">
-            <div class="weather-overview">
+        <div class="container mt-5">
+            <h1 style="color: #fff;">Weather Forecasts</h1>
+            <h2 style="color: #fff;">Stay updated with the latest weather conditions to plan your farming activities effectively.</h2>
+            
+            <div class="weather-overview" style="color: #fff;">
                 <h3>Current Weather Overview</h3>
                 <p>Get real-time weather updates for your location. Knowing the current weather conditions helps in making informed decisions regarding fieldwork, irrigation, and harvesting.</p>
-                
+            </div>
             
-                   
+            <!-- Weather Information Table -->
+            <div class="weather-info" style="color: #fff;">
+                <h3>Weather Information</h3>
+                <table class="table table-striped table-bordered">
+                    <thead class="thead-dark">
+                        <tr style="color: #fff;">
+                            <th scope="col" >#</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">Temperature (°C)</th>
+                            <th scope="col">Humidity (%)</th>
+                            <th scope="col">Precipitation (mm)</th>
+                            <th scope="col">Wind Speed (km/h)</th>
+                            <th scope="col">Conditions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="weatherTableBody">
+                        <!-- Example Data Rows -->
+                        <tr style="color: #fff;">
+                            <td>1</td>
+                            <td>2024-06-20</td>
+                            <td>28</td>
+                            <td>70</td>
+                            <td>5</td>
+                            <td>15</td>
+                            <td>Sunny</td>
+                        </tr>
+                        <tr style="color: #fff;">
+                            <td>2</td>
+                            <td>2024-06-21</td>
+                            <td>30</td>
+                            <td>65</td>
+                            <td>0</td>
+                            <td>10</td>
+                            <td>Clear</td>
+                        </tr>
+                        <tr style="color: #fff;">
+                            <td>3</td>
+                            <td>2024-06-22</td>
+                            <td>26</td>
+                            <td>75</td>
+                            <td>8</td>
+                            <td>20</td>
+                            <td>Cloudy</td>
+                        </tr>
+                        <tr style="color: #fff;">
+                            <td>4</td>
+                            <td>2024-06-23</td>
+                            <td>24</td>
+                            <td>80</td>
+                            <td>10</td>
+                            <td>18</td>
+                            <td>Rainy</td>
+                        </tr>
+                        <tr style="color: #fff;">
+                            <td>5</td>
+                            <td>2024-06-24</td>
+                            <td>27</td>
+                            <td>60</td>
+                            <td>3</td>
+                            <td>12</td>
+                            <td>Partly Cloudy</td>
+                        </tr>
+                        <tr style="color: #fff;">
+                            <td>6</td>
+                            <td>2024-06-25</td>
+                            <td>25</td>
+                            <td>70</td>
+                            <td>7</td>
+                            <td>14</td>
+                            <td>Thunderstorms</td>
+                        </tr>
+                        <tr style="color: #fff;">
+                            <td>7</td>
+                            <td>2024-06-26</td>
+                            <td>29</td>
+                            <td>55</td>
+                            <td>0</td>
+                            <td>15</td>
+                            <td>Clear</td>
+                        </tr>
+                        <tr style="color: #fff;">
+                            <td>8</td>
+                            <td>2024-06-27</td>
+                            <td>31</td>
+                            <td>50</td>
+                            <td>0</td>
+                            <td>20</td>
+                            <td>Sunny</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
             <div class="resources">
                 <h3>Additional Resources</h3>
@@ -55,7 +143,6 @@
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About Us</a></li>
-                        <li><a href="training-programs.html">Training Programs</a></li>
                         <li><a href="/html-files/crops.html">Market Information</a></li>
                         <li><a href="profile.html">Profile</a></li>
                     </ul>
@@ -65,18 +152,16 @@
                     <ul>
                         <li><a href="faq.html">FAQ</a></li>
                         <li><a href="contact.html">Contact Us</a></li>
-                        <li><a href="support.html">Support</a></li>
-                        <li><a href="shipping.html">Sell your products</a></li>
-                        <li><a href="payment-options.html">Payment Options</a></li>
+                        <li><a href="/html-files/trainig.html">Training Programs</a></li>
+                        <li><a href="/html-files/admin.html">The Admin</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h4>Resources</h4>
                     <ul>
                         <li><a href="weather-overview.html">Weather Forecasts</a></li>
-                        <li><a href="best-practices-overview.html">Best Practices</a></li>
-                        <li><a href="market-overview.html">Market Information</a></li>
-                        <li><a href="tools.html">Tools</a></li>
+                        <li><a href="/html-files/best-practices.html">Best Practices</a></li>
+                        <li><a href="/html-files/">Market Information</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
@@ -95,7 +180,5 @@
             </div>
         </div>
     </footer>
-
-    
 </body>
 </html>

@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - FarmNavigator</title>
+    <title>FarmNavigator</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="/CSS/style.css">
-    <link rel="stylesheet" href="/CSS/about.css">
+    <link rel="stylesheet" href="/CSS/home.css">
 </head>
 <body>
     <div class="navibar">
@@ -16,46 +15,32 @@
             <li><a href="index.html"><span>Home</span></a></li>
             <li><a href="/html-files/crops.html">Market Information</a></li>
             <li><a href="weather-overview.html">Weather Forecasts</a></li>
-            <li><a href="/html-files/best-practices.html">Best Practices</a></li>
-            <li><a href="/html-files/login.html">Login</a></li>
+            <li><a href="best-practices.html">Best Practices</a></li>
+            <li><a href="login.html">Login</a></li>
             <li><a href="/html-files/signup.html">Sign up</a></li>
-            
         </ul>
     </div>
-    <div class="main">
-        <div class="container">
-            <div class="head">
-                <h1>About Us</h1>
-                <p>Welcome to FarmNavigator, your trusted partner in modern agriculture. Our mission is to empower farmers with the tools and knowledge they need to thrive in today’s ever-changing agricultural landscape.</p>
-            </div>
-            <div class="content">
-                <h2>Our Mission</h2>
-                <p>At FarmNavigator, we believe that agriculture is the backbone of human civilization. Our mission is to support farmers by providing them with the latest market information, accurate weather forecasts, and best agricultural practices. We aim to help farmers increase their productivity, sustainability, and profitability.</p>
-
-                <h2>What We Offer</h2>
-                <ul id="strong">
-                    <li><strong>Market Information:</strong> Up-to-date market trends, prices, and insights to help you make informed decisions.</li>
-                    <li><strong>Weather Forecasts:</strong> Reliable weather forecasts tailored to your specific location and agricultural needs.</li>
-                    <li><strong>Best Practices:</strong> Expert advice on sustainable farming techniques, crop management, soil health, and pest control.</li>
-                    <li><strong>Training Programs:</strong> Comprehensive training programs designed to enhance your agricultural skills and knowledge.</li>
-                </ul>
-
-                <h2>Our Team</h2>
-                <p>Our team comprises experienced agricultural experts, meteorologists, market analysts, and software developers. We work together to provide you with the best possible resources and support to enhance your farming operations.</p>
-
-                <h2>Our Vision</h2>
-                <p>We envision a future where every farmer has access to the information and tools they need to succeed. By leveraging technology and innovation, we aim to create a more sustainable and prosperous agricultural industry for all.</p>
-
-                <h2>Contact Us</h2>
-                <p>If you have any questions or need further assistance, feel free to reach out to us. We are here to help you every step of the way.</p>
-                <ul>
-                    <li>Email: <a href="mailto:support@farmnavigator.com">support@farmnavigator.com</a></li>
-                    <li>Phone: <a href="tel:+1234567890">+123 456 7890</a></li>
-                    <li>Address: 123 Farm Street, AgriCity, Country</li>
-                </ul>
-            </div>
-        </div>
+    <div class="container mt-4">
+        <table class="table table-striped table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Full Name</th>
+                    <th scope="col">Phone</th>
+                    <th scope="col">Email Address</th>
+                    <th scope="col">Address</th>
+                    <th scope="col">City</th>
+                    <th scope="col">State</th>
+                    <th scope="col">Zip Code</th>
+                    <th scope="col">Message</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                <!-- Data will be appended here dynamically -->
+            </tbody>
+        </table>
     </div>
+
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -64,7 +49,6 @@
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About Us</a></li>
-    
                         <li><a href="/html-files/crops.html">Market Information</a></li>
                         <li><a href="profile.html">Profile</a></li>
                     </ul>
@@ -76,8 +60,6 @@
                         <li><a href="contact.html">Contact Us</a></li>
                         <li><a href="/html-files/trainig.html">Training Programs</a></li>
                         <li><a href="/html-files/admin.html">The Admin</a></li>
-
-                       
                     </ul>
                 </div>
                 <div class="footer-col">
@@ -86,7 +68,6 @@
                         <li><a href="weather-overview.html">Weather Forecasts</a></li>
                         <li><a href="/html-files/best-practices.html">Best Practices</a></li>
                         <li><a href="/html-files/crops.html">Market Information</a></li>
-                       
                     </ul>
                 </div>
                 <div class="footer-col">
@@ -105,5 +86,10 @@
             </div>
         </div>
     </footer>
+
+    <script src="/JS-files/admin.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="/JS-files/getContactData.js"></script>
 </body>
 </html>

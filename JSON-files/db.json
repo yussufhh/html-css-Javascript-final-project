@@ -66,6 +66,27 @@
       "prices": "2400",
       "description": "cost is high now",
       "image": "https://www.pexels.com/photo/millet-with-vegetables-14024719/"
+    },
+    {
+      "id": "4c56",
+      "crop": "rice",
+      "prices": "2400",
+      "description": "cost is high imagin",
+      "image": "https://www.pexels.com/photo/millet-with-vegetables-14024719/"
+    },
+    {
+      "id": "3285",
+      "crop": "rice",
+      "prices": "2400",
+      "description": "cost is high now",
+      "image": "https://www.pexels.com/photo/millet-with-vegetables-14024719/"
+    },
+    {
+      "id": "a648",
+      "crop": "rice",
+      "prices": "8900",
+      "description": "cost is high imagin",
+      "image": "https://images.pexels.com/photos/11519186/pexels-photo-11519186.jpeg?auto=compress&cs=tinysrgb&w=600"
     }
   ],
   "sorghums": [
@@ -130,36 +151,50 @@
   ],
   "dataStorage": [
     {
-      "id": "491b"
+      "id": "4f3a"
     },
     {
-      "id": "dcbe",
-      "Fname": "moon lover",
+      "id": "aed8",
+      "Fname": "yussufhussein9347@gmail.com",
+      "Email": "hiboherson@gmail.com",
+      "passsword": "123456788",
+      "phone": "0793477632"
+    },
+    {
+      "id": "137c",
+      "Fname": "yussufhussein9347@gmail.com",
+      "Email": "hiboherson@gmail.com",
+      "passsword": "123456788",
+      "phone": "0793477632"
+    },
+    {
+      "id": "864d",
+      "Fname": "yussufhussein9347@gmail.com",
       "Email": "yussufhussein9347@gmail.com",
       "passsword": "123456788",
       "phone": "0793477632"
     },
     {
-      "id": "6537",
+      "id": "5a47",
       "Fname": "yussufhussein9347@gmail.com",
       "Email": "",
-      "passsword": "66666",
+      "passsword": "12345678",
       "phone": ""
     },
     {
-      "id": "b690",
+      "id": "8544",
       "Fname": "yussufhussein9347@gmail.com",
-      "Email": "",
-      "passsword": "66666",
-      "phone": ""
+      "Email": "hiboherson@gmail.com",
+      "passsword": "123456788",
+      "phone": "0793477632"
     }
   ],
-  "ContactData": [
+  "ContactDatas": [
     {
-      "id": "2098"
+      "id": "12c5"
     },
     {
-      "id": "a87a",
+      "id": "98dd",
       "fullName": "yyyui",
       "phone": "0793477632",
       "email": "hiboherson@gmail.com",
@@ -167,40 +202,18 @@
       "city": "garissa town",
       "state": "g university",
       "zip": "090",
-      "message": "wana buy"
+      "message": "hhhhh"
     },
     {
-      "id": "ae1e",
+      "id": "90fb",
       "fullName": "yyyui",
       "phone": "0793477632",
       "email": "hiboherson@gmail.com",
       "address": "56",
       "city": "garissa town",
-      "state": "g university",
+      "state": "gau",
       "zip": "090",
-      "message": "yuuuskaa"
-    },
-    {
-      "id": "a8c4",
-      "fullName": "yyyui",
-      "phone": "0793477632",
-      "email": "hiboherson@gmail.com",
-      "address": "56",
-      "city": "garissa town",
-      "state": "g university",
-      "zip": "090",
-      "message": "now"
-    },
-    {
-      "id": "c49c",
-      "fullName": "yyyui",
-      "phone": "0793477632",
-      "email": "hiboherson@gmail.com",
-      "address": "56",
-      "city": "garissa town",
-      "state": "g university",
-      "zip": "090",
-      "message": "yyyy"
+      "message": "yuuuu"
     }
   ]
 }
